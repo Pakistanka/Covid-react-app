@@ -6,11 +6,16 @@ import axios from 'axios';
 const url = 'https://covid19.mathdro.id/api';
 
 // async function
-export const fetchData = async () => {
+export const fetchData = async (country) => {
+    let changeableUrl = url;
+
+    if(country) {
+        changeableUrl = `${url}/countries/${country}`
+    }
     // async return answer from api
     try {
         // get special data from api
-        const { data: { confirmed, recovered, deaths, lastUpdate } } = await axios.get(url);
+        const { data: { confirmed, recovered, deaths, lastUpdate } } = await axios.get(changeableUrl);
 
         // destructure data
         // если key и value имею одинаковое имя, то можно не писать
@@ -33,4 +38,14 @@ export const fetchDailyData = async () => {
 
     }
 }
+
+export const fetchCountries = async () => {
+    try {
+      const { data: { countries } } = await axios.get(`${url}/countries`);
+  
+      return countries.map((country) => country.name);
+    } catch (error) {
+      return error;
+    }
+  };
 
