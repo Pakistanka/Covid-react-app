@@ -1,8 +1,8 @@
 # Covid React App
 
-<!-- [![React size](https://img.shields.io/bundlephobia/min/react)](https://img.shields.io/bundlephobia/min/react)
+[![React size](https://img.shields.io/bundlephobia/min/react)](https://img.shields.io/bundlephobia/min/react)
 
-[![Build Status](https://img.shields.io/github/repo-size/pakistanka/Covid-react-app)](https://img.shields.io/github/repo-size/pakistanka/Covid-react-app) -->
+[![Build Status](https://img.shields.io/github/repo-size/pakistanka/Covid-react-app)](https://img.shields.io/github/repo-size/pakistanka/Covid-react-app)
 
 
 
