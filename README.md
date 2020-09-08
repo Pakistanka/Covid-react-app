@@ -16,6 +16,12 @@ To install the project, please, download it or clone, and then after downloading
 npm i
 ```
 
+## Content
+
+* React
+* CSS
+* HTML
+
 ## Available Scripts
 
 In the project directory, you can run:
