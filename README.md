@@ -1,5 +1,7 @@
 # Covid React App
 
+https://img.shields.io/bundlephobia/min/react
+https://img.shields.io/github/repo-size/pakistanka/Covid-react-app
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
